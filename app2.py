@@ -4,8 +4,8 @@ import keras
 from PIL import Image, ImageOps
 import numpy as np
 
-  st.title("Aplicacion de reconocimiento de abejas y mariposas")
-  st.balloons()
+st.title("Aplicacion de reconocimiento de abejas y mariposas")
+st.balloons()
 
 uploaded_file = st.file_uploader("Carga una imagen ...", type=["jpg","jpeg"])
 if uploaded_file is not None:
